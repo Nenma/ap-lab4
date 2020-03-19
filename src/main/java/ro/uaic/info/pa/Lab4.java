@@ -1,6 +1,7 @@
 package ro.uaic.info.pa;
 
 import com.github.javafaker.Faker;
+import optional.Problem;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -37,6 +38,7 @@ public class Lab4 {
 
         System.out.println();
 
+
         List<Resident> residentsThatPreferH0AndH2 = residents.stream()
                 .filter(resident -> residentPreferences.get(resident).containsAll(Arrays.asList(h0, h2)))
                 .collect(Collectors.toList());
@@ -46,6 +48,14 @@ public class Lab4 {
                 .filter(hospital -> hospitalPreferences.get(hospital).get(0).equals(residents.get(0)))
                 .collect(Collectors.toList());
         System.out.println("Hospitals that have R0 as top resident: " + hospitalsThatHaveR0Top);
+
+        System.out.println();
+
+
+        Problem hr = new Problem(residentPreferences, hospitalPreferences);
+        hr.createMatching();
+        System.out.println("This is the matching set created:");
+        hr.printMatching();
     }
 
     private static void printResidentsMap(Map<Resident, List<Hospital>> map) {
@@ -61,7 +71,7 @@ public class Lab4 {
     private static void printHospitalsMap(Map<Hospital, List<Resident>> map) {
         int i = 0;
         for (Map.Entry<Hospital, List<Resident>> entry : map.entrySet()) {
-            System.out.println("[H" + (i++) + "] " + entry.getKey() + " is looking for: ");
+            System.out.println("[H" + (i++) + "](" + entry.getKey().getCapacity() + ") " + entry.getKey() + " is looking for: ");
             for (Resident r : entry.getValue()) {
                 System.out.println("\t- " + r.getName());
             }

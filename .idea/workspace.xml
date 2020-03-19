@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4ceea85-b686-4727-a01a-46e3f0c50fd7" name="Default Changelist" comment="" />
+    <list default="true" id="d4ceea85-b686-4727-a01a-46e3f0c50fd7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/uaic/info/pa/Hospital.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ro/uaic/info/pa/Hospital.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/uaic/info/pa/Lab4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ro/uaic/info/pa/Lab4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/uaic/info/pa/Resident.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ro/uaic/info/pa/Resident.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/uaic/info/pa/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/uaic/info/pa/Hospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/uaic/info/pa/Lab4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/uaic/info/pa/Lab4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/uaic/info/pa/Resident.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/uaic/info/pa/Resident.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +36,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Z4RtTZymG9MTMgkpUQv0Dmwij3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -39,7 +62,20 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Lab4 (1)">
+    <configuration name="Lab4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optional.Lab4" />
+      <module name="Lab4.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="optional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lab4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ro.uaic.info.pa.Lab4" />
       <module name="Lab4.main" />
@@ -55,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lab4 (1)" />
         <item itemvalue="Application.Lab4" />
       </list>
     </recent_temporary>
@@ -69,7 +106,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584096595429</updated>
-      <workItem from="1584096598613" duration="10091000" />
+      <workItem from="1584096598613" duration="10322000" />
+      <workItem from="1584618898404" duration="1170000" />
+      <workItem from="1584620190386" duration="12326000" />
     </task>
     <servers />
   </component>
@@ -77,29 +116,47 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1584101314479">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1584627176035">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/0.-768.1360.728@0.0.1536.824" timestamp="1584101314479" />
-    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1584106652629">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584627176035" />
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584620065145">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-768.1360.728@0.0.1536.824" timestamp="1584106652629" />
-    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1584106652629">
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1584620065145" />
+    <state x="376" y="7" key="CommitChangelistDialog2" timestamp="1584634882755">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.824/0.-768.1360.728@0.0.1536.824" timestamp="1584106652629" />
-    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1584106652628">
+    <state x="376" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584634882755" />
+    <state width="1493" height="219" key="GridCell.Tab.0.bottom" timestamp="1584634726129">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.824/0.-768.1360.728@0.0.1536.824" timestamp="1584106652628" />
-    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1584106652629">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-768.1360.728@0.0.1536.824" timestamp="1584106931207" />
+    <state width="1493" height="219" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584634726129" />
+    <state width="1493" height="219" key="GridCell.Tab.0.center" timestamp="1584634726129">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.824/0.-768.1360.728@0.0.1536.824" timestamp="1584106652629" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1584096598637">
+    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.824/0.-768.1360.728@0.0.1536.824" timestamp="1584106931207" />
+    <state width="1493" height="219" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584634726129" />
+    <state width="1493" height="219" key="GridCell.Tab.0.left" timestamp="1584634726128">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.824/0.-768.1360.728@0.0.1536.824" timestamp="1584106931207" />
+    <state width="1493" height="219" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584634726128" />
+    <state width="1493" height="219" key="GridCell.Tab.0.right" timestamp="1584634726129">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.824/0.-768.1360.728@0.0.1536.824" timestamp="1584106931207" />
+    <state width="1493" height="219" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584634726129" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1584620190183">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/0.-768.1360.728@0.0.1536.824" timestamp="1584096598637" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584620190183" />
+    <state x="499" y="178" key="extract.method.dialog" timestamp="1584632444418">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="178" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1584632444418" />
   </component>
 </project>

@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Hospital implements Comparable<Hospital> {
-    String name;
-    int capacity;
-    List<Resident> preferredResidents;
+    private String name;
+    private int capacity;
+    private List<Resident> preferredResidents;
 
     public Hospital(String name, int capacity) {
         this.name = name;
@@ -56,5 +56,25 @@ public class Hospital implements Comparable<Hospital> {
     @Override
     public String toString() {
         return name;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if (!(obj instanceof Hospital)) {
+            return false;
+        }
+        Hospital other = (Hospital) obj;
+        return name.equals(((Hospital) obj).getName());
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + name.hashCode();
+        return result;
     }
 }

@@ -1,7 +1,6 @@
 package ro.uaic.info.pa;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 
 public class Resident {
@@ -50,5 +49,25 @@ public class Resident {
     @Override
     public String toString() {
         return name;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if (!(obj instanceof Resident)) {
+            return false;
+        }
+        Resident other = (Resident) obj;
+        return name.equals(other.getName());
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + name.hashCode();
+        return result;
     }
 }
